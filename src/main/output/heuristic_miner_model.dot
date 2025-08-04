@@ -1,0 +1,18 @@
+digraph G {
+rankdir="TD";
+compound="true";
+"e2fa44a3f-2dde-4761-a758-3fb7fbf7e779" [label="ARTIFICIAL_START", id="e2fa44a3f-2dde-4761-a758-3fb7fbf7e779",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"ecb7d2ebe-35f5-4e47-a24d-d20c6799bb81" [label="new", id="ecb7d2ebe-35f5-4e47-a24d-d20c6799bb81",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e73e9be94-a919-4f17-b4a8-22c8f0fabbbe" [label="ARTIFICIAL_END", id="e73e9be94-a919-4f17-b4a8-22c8f0fabbbe",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"eb6cf0183-0889-4aab-9088-f919f2ed23f5" [label="log", id="eb6cf0183-0889-4aab-9088-f919f2ed23f5",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"ea4a87b25-145b-493c-b6ca-d747b8ad9d34" [label="edit", id="ea4a87b25-145b-493c-b6ca-d747b8ad9d34",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e1a3fd796-25e2-42e9-8f44-bed103c08829" [label="categorize", id="e1a3fd796-25e2-42e9-8f44-bed103c08829",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e2fa44a3f-2dde-4761-a758-3fb7fbf7e779" -> "ecb7d2ebe-35f5-4e47-a24d-d20c6799bb81" [label="" id="ed254a262-dbd1-4d7f-9dc5-b08ce736a4d3"];
+"ecb7d2ebe-35f5-4e47-a24d-d20c6799bb81" -> "e73e9be94-a919-4f17-b4a8-22c8f0fabbbe" [label="" id="e5687d234-0863-4692-aa24-c75c203b3292"];
+"e2fa44a3f-2dde-4761-a758-3fb7fbf7e779" -> "eb6cf0183-0889-4aab-9088-f919f2ed23f5" [label="" id="e6121c82b-5df9-4d8c-a318-0b618472fb72"];
+"eb6cf0183-0889-4aab-9088-f919f2ed23f5" -> "e73e9be94-a919-4f17-b4a8-22c8f0fabbbe" [label="" id="e91451e40-2586-43d6-bad4-ae5ad2f83faa"];
+"e2fa44a3f-2dde-4761-a758-3fb7fbf7e779" -> "ea4a87b25-145b-493c-b6ca-d747b8ad9d34" [label="" id="eaba911f5-a19b-48b8-89bf-6145af21dc5a"];
+"ea4a87b25-145b-493c-b6ca-d747b8ad9d34" -> "e73e9be94-a919-4f17-b4a8-22c8f0fabbbe" [label="" id="e44a76756-14db-49d7-b970-05bba856512d"];
+"e2fa44a3f-2dde-4761-a758-3fb7fbf7e779" -> "e1a3fd796-25e2-42e9-8f44-bed103c08829" [label="" id="ef4538572-a27c-49a3-b480-21a0c1a9aa18"];
+"e1a3fd796-25e2-42e9-8f44-bed103c08829" -> "e73e9be94-a919-4f17-b4a8-22c8f0fabbbe" [label="" id="e518a771f-e736-4f65-ac78-d9eff5448315"];
+}

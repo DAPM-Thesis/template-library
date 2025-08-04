@@ -1,0 +1,43 @@
+{
+  "processing elements":[
+    { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+    { "templateID": "HeuristicsMinerLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": { "maximalApproximationError": 0.0001 } },
+    { "templateID": "HeuristicsMinerBudgetLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": {} },
+    { "templateID": "CausalNetVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["CausalNet"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/heuristic_miner_model.dot"} },
+    { "templateID": "CausalNetVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["CausalNet"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/heuristic_budget_miner_model.dot"} }
+  ],
+
+  "channels": [
+    {
+      "publisher": { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "HeuristicsMinerLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": { "maximalApproximationError": 0.0001 } },
+          "portNumber": 1
+        },
+        {
+          "processing element": { "templateID": "HeuristicsMinerBudgetLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": {} },
+          "portNumber": 1
+        }
+      ]
+    },
+    {
+      "publisher": { "templateID": "HeuristicsMinerLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": { "maximalApproximationError": 0.0001 } },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "CausalNetVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["CausalNet"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/heuristic_miner_model.dot"} },
+          "portNumber": 1
+        }
+      ]
+    },
+    {
+      "publisher": { "templateID": "HeuristicsMinerBudgetLossyCounting", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "CausalNet",  "instanceNumber": 1, "configuration": {} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "CausalNetVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["CausalNet"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/heuristic_budget_miner_model.dot"} },
+          "portNumber": 1
+        }
+      ]
+    }
+  ]
+}

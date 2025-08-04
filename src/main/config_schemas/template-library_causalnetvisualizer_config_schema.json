@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_causalnetvisualizer_config_schema.json",
+  "title": "Template Library CausalNet visualizer Config",
+  "type": "object",
+  "properties": {
+    "saveFilepath": { "type": "string" },
+
+    "cnet_activity_fontsize": {"type": "integer", "minimum": 1},
+    "cnet_activity_fillcolor": {"type": "string", "enum": ["white", "black", "red", "turquoise", "sienna"] },
+    "cnet_activity_shape": { "type": "string", "enum": ["box", "ellipse", "oval", "circle", "rect"]},
+    "cnet_activity_style": { "type": "array", "items": {"type": "string", "enum": ["dashed", "dotted", "solid", "invis", "bold", "filled", "striped", "wedged", "diagonals", "rounded"]}},
+    "cnet_activity_color": {"type": "string", "enum": ["white", "black", "red", "turquoise", "sienna"] }
+  },
+  "required": ["saveFilepath"],
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_trivialminer_config_schema.json",
+  "title": "Template Library Beamline Trivial Miner Config",
+  "type": "object",
+  "properties": {
+    "minDependency": { "type":  "number", "minimum": 0.0, "maximum": 1.0 },
+    "modelRefreshRate": { "type": "integer", "minimum": 1 }
+  },
+  "additionalProperties": false
+}

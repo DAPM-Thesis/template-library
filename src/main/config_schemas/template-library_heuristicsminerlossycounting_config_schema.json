@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_heuristicsminerlossycounting_config_schema.json",
+  "title": "Template Library Heuristics Miner Config",
+  "type": "object",
+  "properties": {
+    "modelRefreshRate": { "type": "integer", "minimum": 1},
+    "maximalApproximationError": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "minimumDependencyThreshold": { "type": "number", "minimum": 0.0, "maximum": 1.0},
+    "positiveObservationThreshold": {"type": "integer", "minimum": 1},
+    "andThreshold": {"type": "number", "minimum": 0.0, "maximum": 1.0}
+  },
+  "required": ["maximalApproximationError"],
+  "additionalProperties": false
+}

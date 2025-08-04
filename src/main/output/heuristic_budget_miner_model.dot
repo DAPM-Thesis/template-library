@@ -1,0 +1,18 @@
+digraph G {
+rankdir="TD";
+compound="true";
+"eab2771d8-899b-4d0a-b37e-5f3227c5785f" [label="ARTIFICIAL_START", id="eab2771d8-899b-4d0a-b37e-5f3227c5785f",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e35e2a676-2049-4961-b527-1b0913322ae5" [label="new", id="e35e2a676-2049-4961-b527-1b0913322ae5",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e72788d94-ac4a-4371-aa29-208036be4d43" [label="ARTIFICIAL_END", id="e72788d94-ac4a-4371-aa29-208036be4d43",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"e814f20b0-4ac3-4323-9eba-e4e6b05d3408" [label="edit", id="e814f20b0-4ac3-4323-9eba-e4e6b05d3408",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"ea77b798a-a958-4091-961a-3585bc64390c" [label="log", id="ea77b798a-a958-4091-961a-3585bc64390c",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"ebaf55101-a666-444a-acd7-f0a7f6add90b" [label="categorize", id="ebaf55101-a666-444a-acd7-f0a7f6add90b",fillcolor="white",shape="rec",color="black",fontsize="10",style="filled",fontname="arial"];
+"eab2771d8-899b-4d0a-b37e-5f3227c5785f" -> "e35e2a676-2049-4961-b527-1b0913322ae5" [label="" id="ebb9d9c2d-0316-4c8a-8612-e589535bb62f"];
+"e35e2a676-2049-4961-b527-1b0913322ae5" -> "e72788d94-ac4a-4371-aa29-208036be4d43" [label="" id="ef08af125-2575-48cb-bbe3-d4b26b7c153a"];
+"eab2771d8-899b-4d0a-b37e-5f3227c5785f" -> "e814f20b0-4ac3-4323-9eba-e4e6b05d3408" [label="" id="e5b384aa0-8f4b-4839-886a-d323117f8b2f"];
+"e814f20b0-4ac3-4323-9eba-e4e6b05d3408" -> "e72788d94-ac4a-4371-aa29-208036be4d43" [label="" id="e53e2576e-3718-48d8-aea6-c86e785ef294"];
+"eab2771d8-899b-4d0a-b37e-5f3227c5785f" -> "ea77b798a-a958-4091-961a-3585bc64390c" [label="" id="e3e124d43-c1cc-4e76-8cab-205e036366cd"];
+"ea77b798a-a958-4091-961a-3585bc64390c" -> "e72788d94-ac4a-4371-aa29-208036be4d43" [label="" id="eb9d7fb13-ddbf-4918-966c-09a6c2dda3ab"];
+"eab2771d8-899b-4d0a-b37e-5f3227c5785f" -> "ebaf55101-a666-444a-acd7-f0a7f6add90b" [label="" id="e848fbda6-5c5c-4fc9-9e63-94362ed5bff4"];
+"ebaf55101-a666-444a-acd7-f0a7f6add90b" -> "e72788d94-ac4a-4371-aa29-208036be4d43" [label="" id="ea9cdae32-968f-4d2e-9ebc-4f935b5aa3d9"];
+}

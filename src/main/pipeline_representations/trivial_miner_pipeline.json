@@ -1,0 +1,28 @@
+{
+  "processing elements":[
+    { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+    { "templateID": "TrivialMiner", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "ProcessMap",  "instanceNumber": 1, "configuration": {} },
+    { "templateID": "ProcessMapVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["ProcessMap"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/trivial_miner_model.dot"} }
+  ],
+
+  "channels": [
+    {
+      "publisher": { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "TrivialMiner", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "ProcessMap",  "instanceNumber": 1, "configuration": {} },
+          "portNumber": 1
+        }
+      ]
+    },
+    {
+      "publisher": { "templateID": "TrivialMiner", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "ProcessMap",  "instanceNumber": 1, "configuration": {} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "ProcessMapVisualizer", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["ProcessMap"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/trivial_miner_model.dot"} },
+          "portNumber": 1
+        }
+      ]
+    }
+  ]
+}

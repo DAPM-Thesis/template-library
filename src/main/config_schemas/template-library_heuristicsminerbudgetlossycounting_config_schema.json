@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_heuristicsminerbudgetlossycounting_config_schema.json",
+  "title": "Template Library Heuristics Miner on a Budget Config",
+  "type": "object",
+  "properties": {
+    "modelRefreshRate": { "type": "integer", "minimum": 1},
+    "totalBudget": {"type": "integer", "minimum": 1},
+    "minimumDependencyThreshold": { "type": "number", "minimum": 0.0, "maximum": 1.0},
+    "positiveObservationThreshold": {"type": "integer", "minimum": 1},
+    "andThreshold": {"type": "number", "minimum": 0.0, "maximum": 1.0}
+  },
+  "required": [],
+  "additionalProperties": false
+}

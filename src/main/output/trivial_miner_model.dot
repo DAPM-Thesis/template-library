@@ -1,0 +1,12 @@
+digraph G {
+remincross="true";
+outputorder="edgesfirst";
+margin="0.0,0.0";
+fontsize="9";
+rankdir="TD";
+compound="true";
+ranksep="0.1";
+"e02117a3f-6c5c-4ff9-8468-3f88b314e16f" [label=<<font point-size='22'>categorize</font> <br/><font point-size='11'>0,86
+ (96)</font>>, id="e02117a3f-6c5c-4ff9-8468-3f88b314e16f",fillcolor="#FDEFD8",shape="box",width="1.2",style="rounded,filled",fontname="Arial",fixedsize="true",height="0.23"];
+"e02117a3f-6c5c-4ff9-8468-3f88b314e16f" -> "e02117a3f-6c5c-4ff9-8468-3f88b314e16f" [label=" 1,0 (66)" id="ece75b199-1345-446a-a651-97ed0a184f7c",decorate="false",penwidth="9.0",tailclip="false",color="#252526",fontsize="8",fontname="Arial",arrowsize="8"];
+}

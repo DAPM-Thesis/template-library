@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_processmapvisualizer_config_schema.json",
+  "title": "Template Library Beamline ProcessMap Visualizer Config",
+  "type": "object",
+  "properties": {
+    "activityColor": { "type":  "string", "enum": ["blue", "violet", "red", "orange", "aqua", "yellow", "pink", "green", "gray", "dark_gray"] },
+    "nodeShape": { "type": "string", "enum": ["box", "ellipse", "oval", "circle", "rect"]},
+    "nodeStyle": { "type": "array", "items": {"type": "string", "enum": ["dashed", "dotted", "solid", "invis", "bold", "filled", "striped", "wedged", "diagonals", "rounded"]}},
+    "fixedsize": { "type": "boolean" },
+    "nodeHeight": { "type": "number", "minimum": 0.01 },
+    "nodeWidth": { "type": "number", "minimum": 0.01 },
+    "ranksep": { "type": "number", "minimum": 0.02 },
+    "nodeFontsize": { "type": "integer", "minimum": 1 },
+    "margin": {"type": "object",
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+
+    "edgeFontsize": { "type": "integer", "minimum": 1 },
+    "arrowsize": { "type": "number", "minimum": 0.0 },
+    "tailclip": { "type": "boolean" },
+    "decorate": { "type": "boolean"},
+
+    "startNodeShape": { "type": "string", "enum": ["box", "ellipse", "oval", "circle", "rect"]},
+    "startNodeStyle": { "type": "array", "items": {"type": "string", "enum": ["dashed", "dotted", "solid", "invis", "bold", "filled", "striped", "wedged", "diagonals", "rounded"]}},
+    "startNodeHeight": { "type": "number", "minimum": 0.01 },
+    "startNodeWidth": { "type": "number", "minimum": 0.01 },
+
+    "endNodeShape": { "type": "string", "enum": ["box", "ellipse", "oval", "circle", "rect"]},
+    "endNodeStyle": { "type": "array", "items": {"type": "string", "enum": ["dashed", "dotted", "solid", "invis", "bold", "filled", "striped", "wedged", "diagonals", "rounded"]}},
+    "endNodeHeight": { "type": "number", "minimum": 0.01 },
+    "endNodeWidth": { "type": "number", "minimum": 0.01 },
+
+    "saveFilepath": { "type": "string" }
+  },
+  "additionalProperties": false,
+  "required": ["saveFilepath"]
+}
