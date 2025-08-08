@@ -1,0 +1,28 @@
+{
+  "nodes": ["new","categorize","edit"],
+  "edges": [
+    {"from":"new","to":"edit","probability":0.2},
+    {"from":"edit","to":"categorize","probability":0.1},
+    {"from":"edit","to":"edit","probability":0.7}
+  ],
+  "inEdgeMap":
+  {
+    "new": [],
+    "categorize": [{"from":"edit","to":"categorize","probability":0.1}],
+    "edit": [
+      {"from":"new","to":"edit","probability":0.2},
+      {"from":"edit","to":"edit","probability":0.7}
+    ]
+  },
+  "outEdgeMap":
+  {
+    "new": [{"from":"new","to":"edit","probability":0.2}],
+    "categorize": [],
+    "edit": [
+      {"from":"edit","to":"categorize","probability":0.1},
+      {"from":"edit","to":"edit","probability":0.7}
+    ]
+  },
+  "attributeNameUsed": null,
+  "weightFactor": 0.0
+}

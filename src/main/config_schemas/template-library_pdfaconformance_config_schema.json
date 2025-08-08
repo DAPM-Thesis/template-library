@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template_library_pdfaconformance_config_schema.json",
+  "title": "Soft Conformance Operator",
+  "type": "object",
+  "properties": {
+    "alpha": { "type": "number", "minimum": 0.0, "maximum": 1.0},
+    "maxCasesToStore": { "type": "integer", "minimum": 1},
+    "resultsRefreshRate": { "type": "integer", "minimum": 1},
+    "modelPath": { "type": "string" }
+  },
+  "required": ["maxCasesToStore", "modelPath"],
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "processing elements":[
+    { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+    { "templateID": "PDFAConformance", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "SoftConformanceReport",  "instanceNumber": 1, "configuration": { "maxCasesToStore": 1000, "modelPath": "src/main/pipeline_representations/softconformance/reference_model.json"} },
+    { "templateID": "SoftConformanceSink", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["SoftConformanceReport"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/soft_conformance_report.txt"} }
+  ],
+
+  "channels": [
+    {
+      "publisher": { "templateID": "WikipediaEventSource", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": [], "output": "Event", "instanceNumber": 1, "configuration": {} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "PDFAConformance", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "SoftConformanceReport",  "instanceNumber": 1, "configuration": { "maxCasesToStore": 1000, "modelPath": "src/main/pipeline_representations/softconformance/reference_model.json"} },
+          "portNumber": 1
+        }
+      ]
+    },
+    {
+      "publisher": { "templateID": "PDFAConformance", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["Event"],  "output": "SoftConformanceReport",  "instanceNumber": 1, "configuration": { "maxCasesToStore": 1000, "modelPath": "src/main/pipeline_representations/softconformance/reference_model.json"} },
+      "subscribers": [
+        {
+          "processing element": { "templateID": "SoftConformanceSink", "organizationID": "template-library", "hostURL": "http://localhost:8082", "inputs": ["SoftConformanceReport"],  "output": null,  "instanceNumber": 1, "configuration": {"saveFilepath": "src/main/output/soft_conformance_report.txt"} },
+          "portNumber": 1
+        }
+      ]
+    }
+  ]
+}

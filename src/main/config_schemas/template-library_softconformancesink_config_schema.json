@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.dapm.org/config/template-library_pdfaconformancesink_config_schema.json",
+  "title": "Soft Conformance Report .txt Sink Config",
+  "type": "object",
+  "properties": {
+    "saveFilepath": { "type": "string" }
+  },
+  "required": ["saveFilepath"],
+  "additionalProperties": false
+}

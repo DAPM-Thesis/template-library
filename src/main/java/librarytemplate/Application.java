@@ -14,6 +14,8 @@ import templates.beamline.ProcessMapVisualizer;
 import templates.beamline.TrivialMiner;
 import templates.beamline.heuristicsminer.HeuristicsMinerLossyCounting;
 import templates.beamline.heuristicsminer.budget.HeuristicsMinerBudgetLossyCounting;
+import templates.beamline.softconformance.PDFAConformance;
+import templates.beamline.softconformance.SoftConformanceSink;
 
 import java.io.IOException;
 import java.net.URI;
@@ -32,7 +34,7 @@ public class Application {
 
         String pipelineID = "lib_example_pipeline";
         String contents;
-        try { contents = Files.readString(Paths.get("src/main/pipeline_representations/heuristics_miner_pipeline.json")); } catch (IOException e) { throw new RuntimeException(e);}
+        try { contents = Files.readString(Paths.get("src/main/pipeline_representations/softconformance/soft_conformance_pipeline.json")); } catch (IOException e) { throw new RuntimeException(e);}
 
         URI configURI = Paths.get("src/main/config_schemas").toUri();
         ValidatedPipeline validatedPipeline = new ValidatedPipeline(contents, configURI);
@@ -51,5 +53,7 @@ public class Application {
         templateRepository.storeTemplate("CausalNetVisualizer", CausalNetVisualizer.class);
         templateRepository.storeTemplate("HeuristicsMinerLossyCounting", HeuristicsMinerLossyCounting.class);
         templateRepository.storeTemplate("HeuristicsMinerBudgetLossyCounting", HeuristicsMinerBudgetLossyCounting.class);
+        templateRepository.storeTemplate("PDFAConformance", PDFAConformance.class);
+        templateRepository.storeTemplate("SoftConformanceSink", SoftConformanceSink.class);
     }
 }

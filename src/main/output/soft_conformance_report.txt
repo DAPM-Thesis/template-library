@@ -1,0 +1,169 @@
+Case: BotMultichillT	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Ranveig	soft conformance: NaN	mean of probs: NaN
+Case: まるっちだいすけ	soft conformance: NaN	mean of probs: NaN
+Case: ZuppaPesce	soft conformance: NaN	mean of probs: NaN
+Case: W2k2	soft conformance: NaN	mean of probs: NaN
+Case: LuciferianBot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Max96	soft conformance: NaN	mean of probs: NaN
+Case: Ericliu1912	soft conformance: NaN	mean of probs: NaN
+Case: Porvari	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: FrGhM	soft conformance: NaN	mean of probs: NaN
+Case: Osnenzo	soft conformance: NaN	mean of probs: NaN
+Case: Kingstoken	soft conformance: NaN	mean of probs: NaN
+Case: Fleur-de-farine	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Yu897766	soft conformance: NaN	mean of probs: NaN
+Case: Mith	soft conformance: NaN	mean of probs: NaN
+Case: Arbota	soft conformance: NaN	mean of probs: NaN
+Case: MatSuBot	soft conformance: 0.0	mean of probs: 0.0
+Case: Pere prlpz	soft conformance: 0.09538461538461536	mean of probs: 0.08266666666666665
+Case: 迴廊彼端	soft conformance: NaN	mean of probs: NaN
+Case: ZAJCOPEDIA	soft conformance: NaN	mean of probs: NaN
+Case: Madamebiblio	soft conformance: NaN	mean of probs: NaN
+Case: Aleth Bot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: 2600:4040:AF17:BF00:D6E1:7D39:896D:7204	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Limfjord69	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Ahmad.orabii	soft conformance: 0.0	mean of probs: 0.0
+Case: Fenikals	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: TTSolitaire	soft conformance: NaN	mean of probs: NaN
+Case: M2k~dewiki	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: FruitJ	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Invisigoth67	soft conformance: NaN	mean of probs: NaN
+Case: MiguelAlanCS	soft conformance: 0.13846153846153844	mean of probs: 0.12
+Case: Граф Рауль Валуа	soft conformance: NaN	mean of probs: NaN
+Case: Pragnell1957	soft conformance: NaN	mean of probs: NaN
+Case: Glman	soft conformance: NaN	mean of probs: NaN
+Case: Zenzyyx	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: ~2025-35321-8	soft conformance: 0.0	mean of probs: 0.0
+Case: Bertoka	soft conformance: NaN	mean of probs: NaN
+Case: İmmoBot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Bot-Jagwar	soft conformance: NaN	mean of probs: NaN
+Case: CuratorBot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: TitánBM	soft conformance: NaN	mean of probs: NaN
+Case: HenkvD	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Pywikibot-test	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Torswas	soft conformance: NaN	mean of probs: NaN
+Case: DPLA bot	soft conformance: 0.06440071556350624	mean of probs: 0.05581395348837207
+Case: Mailaender45	soft conformance: NaN	mean of probs: NaN
+Case: Una tantum	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Ricjac	soft conformance: NaN	mean of probs: NaN
+Case: MidleadingBot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: MDanielsBot	soft conformance: NaN	mean of probs: NaN
+Case: Lotje	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Swam pl	soft conformance: NaN	mean of probs: NaN
+Case: HedgeHog	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Hakanp	soft conformance: NaN	mean of probs: NaN
+Case: AnRo0002	soft conformance: NaN	mean of probs: NaN
+Case: Lojwe	soft conformance: NaN	mean of probs: NaN
+Case: Snowflake91	soft conformance: NaN	mean of probs: NaN
+Case: Artur 10	soft conformance: NaN	mean of probs: NaN
+Case: Kristbaumbot	soft conformance: NaN	mean of probs: NaN
+Case: Gz260	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: PereBot	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Cakebos12	soft conformance: NaN	mean of probs: NaN
+Case: PeterWD	soft conformance: 0.3538461538461538	mean of probs: 0.30666666666666664
+Case: Boutboul	soft conformance: NaN	mean of probs: NaN
+Case: Cewbot	soft conformance: NaN	mean of probs: NaN
+Case: MHM55	soft conformance: NaN	mean of probs: NaN
+Case: Kovcszaln6	soft conformance: NaN	mean of probs: NaN
+Case: 93.124.1.10	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Yger	soft conformance: NaN	mean of probs: NaN
+Case: Lsjbot	soft conformance: 0.1323076923076923	mean of probs: 0.11466666666666667
+Case: Intk5526	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: ThomasV695	soft conformance: NaN	mean of probs: NaN
+Case: Scmchamps	soft conformance: NaN	mean of probs: NaN
+Case: Davide.taurozzi	soft conformance: NaN	mean of probs: NaN
+Case: Binderstm	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Geistory317	soft conformance: NaN	mean of probs: NaN
+Case: ParkingTheBus	soft conformance: NaN	mean of probs: NaN
+Case: Jeabbabe	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Andrewlee213	soft conformance: NaN	mean of probs: NaN
+Case: Gzen92Bot	soft conformance: 0.06672845227062091	mean of probs: 0.05783132530120479
+Case: Necrothesp	soft conformance: NaN	mean of probs: NaN
+Case: SchlurcherBot	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: ~2025-35196-4	soft conformance: NaN	mean of probs: NaN
+Case: Svencapoeira	soft conformance: NaN	mean of probs: NaN
+Case: Vadaro	soft conformance: NaN	mean of probs: NaN
+Case: QBA-II-bot	soft conformance: NaN	mean of probs: NaN
+Case: Ranaivo007	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: 佛祖西来	soft conformance: NaN	mean of probs: NaN
+Case: Mcsmp	soft conformance: NaN	mean of probs: NaN
+Case: Éric Messel-3	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Mz7 (bot)	soft conformance: NaN	mean of probs: NaN
+Case: 2601:589:4401:30E0:F06E:8696:CFE5:1C1D	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Frielindigo23	soft conformance: NaN	mean of probs: NaN
+Case: Oesjaar	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: TaxonBot	soft conformance: NaN	mean of probs: NaN
+Case: DeltaBot	soft conformance: NaN	mean of probs: NaN
+Case: GleisReis	soft conformance: NaN	mean of probs: NaN
+Case: Winipeg Rice Jaw	soft conformance: NaN	mean of probs: NaN
+Case: Simulacrum	soft conformance: NaN	mean of probs: NaN
+Case: 185.171.62.3	soft conformance: 0.0	mean of probs: 0.0
+Case: 2.50.144.163	soft conformance: 0.08205128205128205	mean of probs: 0.07111111111111111
+Case: FuzzyBot	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: EVA3.0 (bot)	soft conformance: NaN	mean of probs: NaN
+Case: Chaotic Enby	soft conformance: NaN	mean of probs: NaN
+Case: Endsystem	soft conformance: NaN	mean of probs: NaN
+Case: Mr.Rosewater	soft conformance: 0.10769230769230768	mean of probs: 0.09333333333333332
+Case: ListeriaBot	soft conformance: 0.423076923076923	mean of probs: 0.36666666666666664
+Case: Drgntwn	soft conformance: NaN	mean of probs: NaN
+Case: M-le-mot-dit	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Dexbot	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Cambalachero	soft conformance: NaN	mean of probs: NaN
+Case: 151.47.175.234	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Ocdp	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Ghiozzaro	soft conformance: 0.0	mean of probs: 0.0
+Case: Neils51	soft conformance: NaN	mean of probs: NaN
+Case: Blue Elf	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: 2402:3A80:4176:2705:0:6:F3E2:7501	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Nat965	soft conformance: NaN	mean of probs: NaN
+Case: Merson	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Pathfinbird	soft conformance: NaN	mean of probs: NaN
+Case: EmausBot	soft conformance: NaN	mean of probs: NaN
+Case: Omega Bot	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Tukassi	soft conformance: NaN	mean of probs: NaN
+Case: Василь Дулатов	soft conformance: NaN	mean of probs: NaN
+Case: Gromolyak	soft conformance: 0.12307692307692307	mean of probs: 0.10666666666666666
+Case: Sikander	soft conformance: NaN	mean of probs: NaN
+Case: Scanlan	soft conformance: NaN	mean of probs: NaN
+Case: ArildV	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Criticize	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Berthe	soft conformance: NaN	mean of probs: NaN
+Case: Rii Subaru	soft conformance: NaN	mean of probs: NaN
+Case: Harvey Kneeslapper	soft conformance: NaN	mean of probs: NaN
+Case: 2404:7A80:9FC0:A000:68DC:EB27:AFBF:6A4C	soft conformance: 0.0	mean of probs: 0.0
+Case: Izzlex94 verstappenchamp	soft conformance: NaN	mean of probs: NaN
+Case: Makevonlake	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Blackcat	soft conformance: NaN	mean of probs: NaN
+Case: ~2025-33246-0	soft conformance: NaN	mean of probs: NaN
+Case: APTEM	soft conformance: NaN	mean of probs: NaN
+Case: Mr.Nostalgic	soft conformance: NaN	mean of probs: NaN
+Case: TheDutchArchivist	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Rjensen	soft conformance: NaN	mean of probs: NaN
+Case: GeographBot	soft conformance: 0.06769230769230769	mean of probs: 0.058666666666666666
+Case: CFA1877	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: 87.117.189.224	soft conformance: NaN	mean of probs: NaN
+Case: Zinnober9	soft conformance: NaN	mean of probs: NaN
+Case: Д.Ильин	soft conformance: NaN	mean of probs: NaN
+Case: WereSpielChequers	soft conformance: 0.1692307692307692	mean of probs: 0.14666666666666667
+Case: Nicu Farcaș	soft conformance: NaN	mean of probs: NaN
+Case: Tahir697	soft conformance: NaN	mean of probs: NaN
+Case: JustinBoy203	soft conformance: NaN	mean of probs: NaN
+Case: Bnwkr	soft conformance: NaN	mean of probs: NaN
+Case: Ideophagous	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Lohataona	soft conformance: 0.0769230769230769	mean of probs: 0.06666666666666665
+Case: Orgelputzer	soft conformance: 0.06730769230769229	mean of probs: 0.05833333333333332
+Case: তুষার কান্তি ষন্নিগ্রহী	soft conformance: NaN	mean of probs: NaN
+Case: FPFNetwork	soft conformance: NaN	mean of probs: NaN
+Case: 25 Cents FC	soft conformance: NaN	mean of probs: NaN
+Case: FabyBetty	soft conformance: NaN	mean of probs: NaN
+Case: ShakilBoT	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: 176.64.3.147	soft conformance: NaN	mean of probs: NaN
+Case: الموسوي	soft conformance: NaN	mean of probs: NaN
+Case: JustAChurchMouse	soft conformance: NaN	mean of probs: NaN
+Case: Zsteve21	soft conformance: NaN	mean of probs: NaN
+Case: DeltaQuadBot	soft conformance: NaN	mean of probs: NaN
+Case: Silesianus	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Pautard	soft conformance: NaN	mean of probs: NaN
+Case: HanTsî	soft conformance: 0.723076923076923	mean of probs: 0.6266666666666666
+Case: Kareyac	soft conformance: 0.22461538461538455	mean of probs: 0.19466666666666663
+Case: Prana2106	soft conformance: NaN	mean of probs: NaN
